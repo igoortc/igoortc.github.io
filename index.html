@@ -13,13 +13,26 @@
 	<body>
 		<div class="container">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title">
-				<p class="text-center">LOREM IPSUM</p>
+				<p class="text-center">IGOR TANNUS</p>
 			</div>
 			<ul class="menu text-center">
-				<li class="active"><a href="#">ABOUT</a></li>
-				<li><a href="#">PORTFOLIO</a></li>
-				<li><a href="#">CONTACT</a></li>
+				<li class="active"><a href="#" data-menu="about">ABOUT</a></li>
+				<li><a href="#" data-menu="portfolio">PORTFOLIO</a></li>
+				<li><a href="#" data-menu="research">RESEARCH</a></li>
+				<li><a href="#" data-menu="contact">CONTACT</a></li>
 			</ul>
+			<div id="about" class="content">
+				ABOUT
+			</div>
+			<div id="portfolio" class="content hide">
+				PORTFOLIO
+			</div>
+			<div id="research" class="content hide">
+				RESEARCH
+			</div>
+			<div id="contact" class="content hide">
+				CONTACT
+			</div>
 		</div>
 		<script src="resources/jquery/jquery.min.js"></script>
 		<script src="resources/bootstrap/js/bootstrap.bundle.min.js"></script>

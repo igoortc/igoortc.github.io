@@ -11,6 +11,18 @@ body {
     color: #cfb4e7;
 }
 
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.content{
+    min-height: 500px;
+}
+
 .menu {
     padding: 0;
 }
@@ -44,8 +56,15 @@ body {
 	transform: scale(0,1);
 }
 
-.menu li a:hover:after {
+.menu li a:hover:after, .menu .active a:after {
     opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
+}
+
+@media screen and (max-width: 390px) {
+    .menu li {
+        display: block;
+        margin-top: 6px;
+    }
 }
