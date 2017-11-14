@@ -1,0 +1,51 @@
+body {
+    font-family: 'Changa', sans-serif;
+    background: #005c80;
+    padding:0;
+    margin:0;
+}
+
+.title p {
+    font-family: 'Londrina Solid', cursive;
+    font-size: 80px;
+    color: #cfb4e7;
+}
+
+.menu {
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    letter-spacing: 2px;
+    padding-right: 10px;
+}
+
+.menu li a, .menu li a:hover {
+    color: #d9dfe6;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+.menu li a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 1em;
+    width: 100%;
+    border-bottom: 1px solid;
+    margin-top: 10px;
+    opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+.menu li a:hover:after {
+    opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
