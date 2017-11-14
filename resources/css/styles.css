@@ -21,6 +21,7 @@ body {
 
 .content{
     min-height: 500px;
+    margin-top: 50px;
 }
 
 .menu {
