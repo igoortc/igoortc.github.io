@@ -3,6 +3,25 @@ body {
     background: #005c80;
     padding:0;
     margin:0;
+    color: #a3b7cb;
+}
+
+a {
+    color: #5fa9c6;
+}
+
+a:hover {
+    color: #cfb4e7;
+    text-decoration: none;
+}
+
+section p:first-child {
+    font-weight: 500;
+    color: #798ea5;
+}
+
+.content li {
+    margin: 10px 0;
 }
 
 .title p {
