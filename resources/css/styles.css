@@ -1,23 +1,23 @@
 body {
     font-family: 'Changa', sans-serif;
-    background: #005c80;
+    background: #171519;
     padding:0;
     margin:0;
-    color: #a3b7cb;
+    color: #c5bfbf;
 }
 
 a {
-    color: #5fa9c6;
+    color: #344d69;
 }
 
 a:hover {
-    color: #cfb4e7;
+    color: #d9dfe6;
     text-decoration: none;
 }
 
 section p {
     font-weight: 500;
-    color: #7badb6;
+    color: #7d417b;
 }
 
 section h1 {
@@ -38,7 +38,7 @@ section h1 {
 .title p {
     font-family: 'Londrina Solid', cursive;
     font-size: 80px;
-    color: #707c9c;
+    color: #7d417b;
     margin-bottom: 0;
 }
 
@@ -115,8 +115,8 @@ section h1 {
 }
 
 .bg-blue {
-    background-color: #659fa9 !important;
-    color: #43116f;
+    background-color: #7d417b !important;
+    color: #c5bfbf;
 }
 
 .lang {
