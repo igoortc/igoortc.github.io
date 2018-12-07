@@ -1,24 +1,21 @@
-body {
+.error-page {
     font-family: 'Changa', sans-serif;
     background-color: transparent;
     font-size: 22px;
 }
 
-a {
+.error-page a {
     color: #546a83;
 }
 
-h3 {
+.error-page h3 {
     color: #bdbaba;
-}
-
-.content {
-    margin: 30px 0 50px 0;
-    text-align: justify;
 }
 
 .not-found {
     text-align: center;
+    margin: 30px 0 50px 0;
+    text-align: justify;
 }
 
 .not-found img {
@@ -32,7 +29,7 @@ h3 {
 }
 
 @media screen and (max-width: 450px) {    
-    .content {
+    .not-found {
         margin: 15px 0 50px 0;
     }
 }
@@ -42,7 +39,7 @@ h3 {
         width: 50%;
     }
 
-    h3 {
+    .not-found h3 {
         font-size: 25px;
     }
 }
