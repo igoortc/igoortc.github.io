@@ -1,13 +1,18 @@
 body {
     font-family: 'Changa', sans-serif;
-    background: #171519;
     padding:0;
     margin:0;
-    color: #c5bfbf;
+    background: #91a7b9;
+    color: #455c78;
+    <!-- Dark mode -->
+    /* background: #171519;
+    color: #c5bfbf; */
 }
 
 a {
-    color: #344d69;
+    color: #45495a;
+    <!-- Dark mode -->
+    /* color: #344d69; */
 }
 
 a:hover {
@@ -123,6 +128,10 @@ section h1 {
     width: 20px;
     position: absolute;
     right: 0;
+}
+
+.progress {
+    background-color: #d2dae2;
 }
 
 @media screen and (min-width: 390px) {
